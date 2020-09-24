@@ -1,0 +1,19 @@
+{
+  "name": "monday-morning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "^5.10.6",
+    "restify": "^8.5.1",
+    "restify-cors-middleware": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "DB_URI=mongodb://ds263068.mlab.com:63068 DB_NAME=monday-morning DB_USER=monday-morning DB_PASSWORD=mon@123 PORT=8080 nodemon index.js"
+  },
+  "author": "Ankit Gupta",
+  "license": "ISC"
+}
